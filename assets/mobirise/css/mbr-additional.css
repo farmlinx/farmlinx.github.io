@@ -1384,6 +1384,37 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #efefef;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #efefef;
+  border-bottom-color: #efefef;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #000000 !important;
+  background-color: #efefef !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
+}
 .cid-rqhOnIkkVY .navbar {
   background: #ffffff;
   transition: none;
@@ -2037,7 +2068,7 @@ body {
 }
 .cid-rrFjCOBa80 .mbr-section-title {
   text-align: center;
-  color: #767676;
+  color: #cc2952;
 }
 .cid-rrHjOBXobj {
   padding-top: 30px;
@@ -2115,7 +2146,7 @@ body {
   }
 }
 .cid-rrHjOBXobj .mbr-section-title {
-  color: #767676;
+  color: #149dcc;
 }
 .cid-rrHASydnp4 {
   padding-top: 30px;
