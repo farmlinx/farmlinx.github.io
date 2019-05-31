@@ -69,7 +69,9 @@
     ],
     "uniqCompNum": 41,
     "versionPublish": "4.9.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-transparent-onlyimg-1a-128x160-1.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
